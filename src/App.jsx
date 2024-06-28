@@ -46,7 +46,7 @@ function App() {
         {/* Display box and copy btn */}
         <div className='flex flex-wrap'>
           <input ref={passwordRef} type="text" value={pass} readOnly className='rounded-lg w-3/4 h-1/2 text-orange-600 text-xl ml-8 p-3' />
-          <button className='text-white bg-blue-500 mx-2 rounded-xl w-20 p-2' onClick={copyToClipboard}>COPY</button>
+          <button className='text-white bg-blue-500 mx-2 rounded-xl w-20 p-2 hover:bg-blue-800' onClick={copyToClipboard}>COPY</button>
         </div>
 
 
